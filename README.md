@@ -1,4 +1,4 @@
-# Major Project 1(1)- 8-bit ALU in Verilog
+# Major Project 1 - 8-bit ALU in Verilog
 
 ## Overview
 This project implements an 8-bit Arithmetic Logic Unit (ALU) in Verilog. It performs arithmetic and logical operations based on select lines.

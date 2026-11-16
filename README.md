@@ -49,4 +49,5 @@ ADD -> SUB -> AND -> OR -> XOR -> NOT
 
 ## Author
 Esther Rani
+
 B.Tech - Electronics and Communication

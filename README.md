@@ -1,7 +1,17 @@
-# Major Project 1 - 8-bit ALU in Verilog
+# Major Project 1 - 8-bit ALU Using Verilog
 
-## Overview
-This project implements an 8-bit Arithmetic Logic Unit (ALU) in Verilog. It performs arithmetic and logical operations based on select lines.
+## Description
+This project implements an 8-bit Arithmetic Logic Unit (ALU) using Verilog. The ALU performs arithmetic and logical operations based on the control signals.
+
+It is designed using combinational logic and verified through simulation.
+
+## How it Works?
+- **ADD** - Addition of two 8-bit numbers
+- **SUB** - Subtraction of two 8-bit numbers
+- **AND** - Bitwise AND operation
+- **OR** - Bitwise OR operation
+- **XOR** - Bitwise XOR operation
+- **NOT** - Bitwise NOT operation
 
 ## Operations
 | Sel | Operation |
@@ -15,17 +25,28 @@ This project implements an 8-bit Arithmetic Logic Unit (ALU) in Verilog. It perf
 | 110 | Shift Left |
 | 111 | Shift Right |
 
-## Files
-- `alu.v` - Main ALU Design
-- `tb_alu.v` - Testbench
+Operations change based on Opcode:
+ADD -> SUB -> AND -> OR -> XOR -> NOT
+
+
+## Modules
+- `design.sv` - 8-bit ALU design
+- `testbench.sv` - Testbench for verification
 - `waveform(3).png` - Simulation Waveform
 
-## Simulation Result
-![Waveform](waveform(3).png)
+## Simulation
+- Tool: EDA Playground (Icarus Verilog + GTKWave)
+- Inputs and Opcode given, outputs correctly changing
+- Waveform verified successfully
+
+## Waveform
+![Waveform](waveform.png)
 
 ## Tools Used
-- EDA Playground / Icarus Verilog
+- Verilog HDL
+- EDA Playground
 - GTKWave
-- GitHub
 
-Designed by EstherRani-gif
+## Author
+Esther Rani
+B.Tech - Electronics and Communication

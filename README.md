@@ -40,7 +40,7 @@ ADD -> SUB -> AND -> OR -> XOR -> NOT
 - Waveform verified successfully
 
 ## Waveform
-![Waveform](waveform.png)
+![Waveform](waveform(3).png)
 
 ## Tools Used
 - Verilog HDL

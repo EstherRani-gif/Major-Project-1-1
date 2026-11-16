@@ -50,4 +50,4 @@ ADD -> SUB -> AND -> OR -> XOR -> NOT
 ## Author
 Muvva Esther Rani
 
-B.Tech - Electronics and Communication
+B.Tech - Electronics and Communication Engineering

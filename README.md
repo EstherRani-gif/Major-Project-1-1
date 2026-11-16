@@ -48,6 +48,6 @@ ADD -> SUB -> AND -> OR -> XOR -> NOT
 - GTKWave
 
 ## Author
-Esther Rani
+Muvva Esther Rani
 
 B.Tech - Electronics and Communication
